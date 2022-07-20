@@ -9,15 +9,15 @@ body {
   display: grid;
   min-height: 500px;
   height: 70vh;
-  grid-template-rows: 100% 100%;
-  grid-template-columns: 50% 25%;
+  grid-template-rows: 100%;
+  grid-template-columns: 50% 50%;
   grid-template-areas:
-  "featuredProduct"
+  "headline featuredProduct"
 }
 
 #featuredProduct {
   grid-area: featuredProduct;
-  background-image: url("../images je/hero.png");
+  background-image: url("../images je/hero.jpeg");
   justify-content: flex-end;
   cursor: pointer;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .heroGridArea {
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -56,35 +56,22 @@ body {
   grid-template-rows: 300px 300px 300px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "bookcases bedroom patio"
-  "couches couches patio"
-  "desks desks desks"
-  ;
+  "bookcases bedroom couches";
 }
 
 #bookcases {
   grid-area: bookcases;
-  background-image: url("../images je/bookcases@2x.png");
+  background-image: url("../images je/picholder.png");
 
 }
 #bedroom {
   grid-area: bedroom;
-  background-image: url("../images je/beds@2x.png");
+  background-image: url("../images je/picholder.png");
 }
 
 #couches {
   grid-area: couches;
-  background-image: url("../images je/couch@2x.png");
-}
-
-#patio {
-  grid-area: patio;
-  background-image: url("../images/patio@2x.png");
-}
-
-#desks {
-  grid-area: desks;
-  background-image: url("../images/desks@2x.png");
+  background-image: url("../images je/picholder.png");
 }
 
 .categoryGridArea {
@@ -189,18 +176,15 @@ h4 {
   }
   #heroGrid {
     grid-template-areas:
-    "featuredProduct featuredProduct"
-    "secondaryProduct CTA";
+    "featuredProduct headline";
   }
   #categoryGrid {
-    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "bookcases"
       "bedroom"
-      "patio"
       "couches"
-      "desks"
-    ;
+      ;
   }
 }
