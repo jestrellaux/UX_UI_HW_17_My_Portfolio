@@ -10,20 +10,19 @@ body {
   min-height: 500px;
   height: 70vh;
   grid-template-rows: 100%;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 0% 100%;
   grid-template-areas:
   "headline featuredProduct"
 }
 
 #featuredProduct {
   grid-area: featuredProduct;
-  background-image: url("../images je/hero.jpeg");
   justify-content: flex-end;
   cursor: pointer;
 }
 
 #headline {
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(199, 218, 226, 0.8);
   position: absolute;
   left: 50px;
   top: 100px;
@@ -33,7 +32,6 @@ body {
 }
 
 .heroGridArea {
-  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
