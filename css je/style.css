@@ -2,7 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Grid CSS */
+/* Hero Grid CSS */
 
 #heroGrid {
   margin: 0px 5%;
@@ -15,11 +15,15 @@ body {
   "headline featuredProduct"
 }
 
+/* My Picture */
+
 #featuredProduct {
   grid-area: featuredProduct;
   justify-content: flex-end;
   cursor: pointer;
 }
+
+/* My Intro UX Researcher */
 
 #headline {
   background-color: rgba(199, 218, 226, 0.8);
@@ -39,14 +43,16 @@ body {
   position: relative;
 }
 
-/* Category Grid CSS */
+/* Case Study Grid CSS */
 
 .subHeading {
   text-align: center;
-  border-bottom: 2px solid black;
-  width: 300px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  width: 800px;
   margin: 50px auto;
 }
+
+/* Case Study Pics Grid CSS */
 
 #categoryGrid {
   margin: 0px 5%;
@@ -54,21 +60,21 @@ body {
   grid-template-rows: 300px 300px 300px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "bookcases bedroom couches";
+  "fashion govt nonProfit";
 }
 
-#bookcases {
-  grid-area: bookcases;
+#fashion {
+  grid-area: fashion;
   background-image: url("../images je/picholder.png");
 
 }
-#bedroom {
-  grid-area: bedroom;
+#govt {
+  grid-area: govt;
   background-image: url("../images je/picholder.png");
 }
 
-#couches {
-  grid-area: couches;
+#nonProfit {
+  grid-area: nonProfit;
   background-image: url("../images je/picholder.png");
 }
 
@@ -82,8 +88,10 @@ body {
   align-content: end;
 }
 
+/* Case Study titles CSS */
+
 .heading {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 15px;
   height: 25px;
   color: white;
@@ -149,7 +157,6 @@ h4 {
   font-size: 22px;
 }
 
-
 #headline p {
   max-width: 350px;
   font-size: 16px;
@@ -180,9 +187,9 @@ h4 {
     grid-template-rows: 300px 300px 300px;
     grid-template-columns: 1fr;
     grid-template-areas:
-      "bookcases"
-      "bedroom"
-      "couches"
+      "fashion"
+      "govt"
+      "nonProfit"
       ;
   }
 }
