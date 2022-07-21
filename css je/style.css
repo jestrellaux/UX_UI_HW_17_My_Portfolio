@@ -60,22 +60,22 @@ body {
   grid-template-rows: 300px 300px 300px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "fashion govt nonProfit";
+  "fashion nonProfit govt";
 }
 
 #fashion {
   grid-area: fashion;
-  background-image: url("../images je/picholder.png");
+  background-image: url("../images je/fashion1.png");
 
 }
 #govt {
   grid-area: govt;
-  background-image: url("../images je/picholder.png");
+  background-image: url("../images je/govt1.png");
 }
 
 #nonProfit {
   grid-area: nonProfit;
-  background-image: url("../images je/picholder.png");
+  background-image: url("../images je/np1.png");
 }
 
 .categoryGridArea {
