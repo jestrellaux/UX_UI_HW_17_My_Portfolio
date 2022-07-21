@@ -92,11 +92,11 @@ body {
 
 .heading {
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 15px;
+  padding: 10px;
   height: 25px;
   color: white;
   font-size: 18px;
-  border-bottom: 5px solid #4E4C67;
+  border-bottom: 5px solid #c64fb0;
 }
 
 
