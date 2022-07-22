@@ -57,7 +57,7 @@ body {
 #categoryGrid {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 300px 100px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
   "fashion nonProfit govt";
@@ -96,7 +96,7 @@ body {
   height: 25px;
   color: white;
   font-size: 18px;
-  border-bottom: 5px solid #c64fb0;
+  border-bottom: 5px solid #4E4C67;
 }
 
 
@@ -192,4 +192,6 @@ h4 {
       "nonProfit"
       ;
   }
+
+  
 }
